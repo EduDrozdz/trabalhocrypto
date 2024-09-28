@@ -1,0 +1,88 @@
+body{
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    max-height: 777px;
+}
+
+.header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+@keyframes color{
+    from {background-color: rgb(207, 207, 255);}
+    to {background-color: #00b89f;}
+}
+
+.btn .button {
+    background-color: #000000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(68, 68, 68);
+}
+.btn{
+    width: 100%;    
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.button{
+    width: 25%;
+}
+
+.container{
+    height: 507px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@keyframes glowingText{
+    0% {
+      text-shadow: 0 0 5px rgb(40, 40, 40), 0 0 10px rgb(40, 40, 40), 0 0 15px rgb(40, 40, 40);
+    }
+    50% {
+      text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0), 0 0 30px rgb(255, 0, 0);
+    }
+    100% {
+      text-shadow: 0 0 5px rgb(40, 40, 40), 0 0 10px rgb(40, 40, 40), 0 0 15px rgb(40, 40, 40);
+    }
+  }
+  
+h1{
+    font-size: 50px;
+    color: #fff;
+    animation: glowingText 5s infinite linear;
+}
+
+#price{
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+span{
+   font-weight: bold;
+}
+a{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+  
