@@ -7,8 +7,8 @@ Ethereum
 
 # Para fazer o codigo funcionar deve seguir os seguintes passos:
 ## Instalar o pacote node/node.js
-``    npm install node
-    npm install node.js``
+    npm install node
+    npm install node.js
 
 ### Instalar o pacote  express
     npm install express
